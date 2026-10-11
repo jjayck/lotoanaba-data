@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.lotoanaba.update-data</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>-I</string>
+    <string>__HOME__/lotoanaba-data/mac/update_data.py</string>
+  </array>
+  <!-- 毎晩22:10(ロト6=月木、ロト7=金の抽選結果は当日夜に公開される) -->
+  <key>StartCalendarInterval</key>
+  <dict><key>Hour</key><integer>22</integer><key>Minute</key><integer>10</integer></dict>
+  <key>StandardOutPath</key><string>__HOME__/lotoanaba-data/mac/update.log</string>
+  <key>StandardErrorPath</key><string>__HOME__/lotoanaba-data/mac/update.log</string>
+</dict>
+</plist>
