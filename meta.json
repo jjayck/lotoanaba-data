@@ -1,13 +1,13 @@
 {
  "loto6": {
-  "count": 2151,
-  "latest": 2151,
-  "sha256": "f6807aa24274c3085bdbddd5d9393840adf2341eef16740e637c96d1a082663d"
+  "count": 2152,
+  "latest": 2152,
+  "sha256": "17d7f3853859d6ced340b98a246e8d19f927e249c65ed9a0b593b0a1e068bced"
  },
  "loto7": {
   "count": 701,
   "latest": 701,
   "sha256": "6a535c7d641d89605024e9bf8abc4bec474486ba7fc9981e05019ceaa83b57d8"
  },
- "updated": "2026-11-02T22:10:06+09:00"
+ "updated": "2026-11-05T22:10:06+09:00"
 }
